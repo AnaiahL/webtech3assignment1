@@ -1,0 +1,162 @@
+/* CSS Document */
+
+/* Defaults */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+/* Content wrapper */
+
+.contentwrapper {
+    width: 960px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+.headerlogo {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.headerlogo img {
+    height: 160px;
+}
+
+nav {
+    display: flex;
+    padding-left: 200px;
+    padding-top: 116px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    flex-direction: Row;
+}
+
+nav ol li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero */
+
+.hero {
+    height: 700px;
+}
+
+.heroimage {
+    display: flex;
+}
+
+.heroimage img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.herodescription {
+    position: relative;
+    top: -620px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 450px;
+    margin-left: 50px;
+    padding-left: 10px;
+    border: black 1px solid;
+
+}
+.herodescription h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+ .hero h2 {
+    display: flex;
+    justify-content: center;
+ }
+
+.herodescription h2 {
+    font-size: 16px;
+    padding-top: 10px;
+    width: 500px;
+    line-height: 25px;
+}
+
+/* Gallery */
+
+.gallerytitle {
+    display: flex;
+    justify-content: center;
+    font-size: 68px;
+    margin-top: 100px;
+    margin-left: 20px;
+    letter-spacing: 80px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.gallery figure img {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover; 
+}
+
+figcaption {
+    display: none;
+}
+
+/* Footer */
+
+
+footer {
+    background: black;
+    height: 180px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.footerlinks {
+    word-spacing: 100px;
+}
+
+.footerlinks ul li {
+    display: inline-block;
+}
+
+.footerlinks ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.titleandcopyright {
+    margin-top: 80px;
+}
+
+/* End */
